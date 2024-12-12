@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url("styles/body.css");
+@import url("styles/slides.css");
+@import url("styles/form.css");
+
+
+:root {
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(194, 231, 239);
+    color: black;
+}

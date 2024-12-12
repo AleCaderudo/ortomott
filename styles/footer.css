@@ -1,0 +1,25 @@
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sem_bubl {
+    font-family: var(--fonte-secundaria);
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.conteudo__texto__footer {
+    font-size: 15px;
+    font-family: var(--fonte-secundaria);
+}
+
+@media screen and (min-width: 1024px) {
+    .sem_bubl {
+        font-size: 12px;
+    }
+    .conteudo__texto__footer {
+        font-size: 20px;
+    }
+}
