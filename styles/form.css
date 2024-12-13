@@ -1,6 +1,6 @@
 .formulario {
     margin: 3em auto;
-    width: 75%;
+    width: 100%;
 }
 
 .formulario__container {
@@ -15,7 +15,7 @@
 .campo__etiqueta {
     align-self: center;
     text-align: left;
-    margin-right: 40px;
+    margin-right: 18px;
     position: relative;
     bottom: 10px;
     float: left;
@@ -28,7 +28,7 @@
 .campo__escrita {
     align-self: center;
     float: left;
-    width: 230px;
+    width: 180px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
@@ -43,7 +43,7 @@
 .campo__escrita__text {
     align-self: center;
     float: left;
-    width: 230px;
+    width: 180px;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
@@ -51,6 +51,8 @@
 
 .mensagem-erro {
     text-align: left;
+    width: 180px;
+
     font-family: var(--fonte-secundaria);
     font-size: 11px;    
     color: red;
@@ -81,6 +83,7 @@
 
     .campo__etiqueta {
         line-height: 50px;
+        margin-right: 40px;
     }
 
     .campo__escrita {
@@ -95,6 +98,12 @@
     .mensagem-erro {
         font-size: 14px;
         width: 300px;
+    }
+
+    .formulario__botao {
+        margin-top: 25px;
+        padding: 15px 20px;
+
     }
 
 }
