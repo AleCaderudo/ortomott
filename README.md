@@ -1,7 +1,8 @@
-# www.ortomott.com.br
+# [Ortomott](https://www.ortomott.com.br/)
 
 ## Descrição
-O www.ortomott.com.br é um site para uma loja especializado em produtos ortopédicos.
+O ortomott.com.br é um site responsivo desenvolvido para a loja de produtos ortopédicos Ortomott.
+
 
 ## Tecnologias Utilizadas
 * **Front-end:** HTML5, CSS, Javascript, PHP
